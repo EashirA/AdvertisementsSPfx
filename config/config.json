@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ads-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/adsWebPart/AdsWebPartWebPart.js",
+          "manifest": "./src/webparts/adsWebPart/AdsWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AdsWebPartWebPartStrings": "lib/webparts/adsWebPart/loc/{locale}.js"
+  }
+}
